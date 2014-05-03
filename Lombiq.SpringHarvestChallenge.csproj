@@ -68,10 +68,29 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\favicon.ico" />
+    <Content Include="Images\spring-harvest-challenge-header.png" />
+    <Content Include="Styles\forms.css">
+      <DependentUpon>forms.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\general.css">
+      <DependentUpon>general.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\navigation.css">
+      <DependentUpon>navigation.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\site.css">
+      <DependentUpon>site.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\type.css">
+      <DependentUpon>type.less</DependentUpon>
+    </Content>
+    <Content Include="Styles\variables.css">
+      <DependentUpon>variables.less</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
-    <Content Include="Content\Web.config" />
+    <Content Include="Images\Web.config" />
     <Content Include="Theme.txt" />
     <Content Include="Theme.png" />
     <Content Include="Placement.info" />
@@ -87,7 +106,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\" />
+    <Content Include="Views\Resources.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\forms.less" />
+    <Content Include="Styles\general.less" />
+    <Content Include="Styles\navigation.less" />
+    <Content Include="Styles\site.less" />
+    <Content Include="Styles\type.less" />
+    <Content Include="Styles\variables.less" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

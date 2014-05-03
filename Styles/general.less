@@ -1,0 +1,79 @@
+﻿@import "variables";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Content/Bootstrap/less/mixins";
+
+
+/* General
+***************************************************************/
+
+
+
+/* Layout */
+body
+{
+    background-color: #EEEEEE;
+}
+
+#layout-wrapper
+{
+    max-width: 1200px;
+}
+
+/* Header */
+.zone-header
+{
+    margin: 0;
+    padding: 0;
+
+    #branding
+    {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        height: 290px;
+
+        a
+        {
+            width: 620px;
+            height: 300px;
+            margin: auto;
+            background-image: url(../Images/spring-harvest-challenge-header.png);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            display: block;
+            outline: 0; // Although this is defined for every anchor it's somehow needed again
+            .text-hide();
+
+            &:hover, &:active, &:focus
+            {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/* Links */
+a
+{
+    border-bottom: 1px dotted @text-color;
+
+    &:hover, &:active, &:focus
+    {
+        border-bottom: 1px solid @text-color;
+        text-decoration: none;
+    }
+}
+
+/* Blog */
+.blog-post p img
+{
+    margin: 1em auto;
+}
+
+/* Footer */
+.credits
+{
+    font-size: 0.9em;
+    margin-top: 1em;
+    text-align: center;
+}

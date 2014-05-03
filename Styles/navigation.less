@@ -1,0 +1,35 @@
+﻿@import "variables";
+@import "../../Lombiq.PrettyGoodBootstrapBaseTheme/Styles/navigation";
+
+
+/* Navigation
+***************************************************************/
+
+.menu
+{
+    a
+    {
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid @text-color;
+        text-decoration: none;
+
+        &:hover, &:active, &:focus
+        {
+            border-top: 1px solid @text-color;
+        }
+    }
+
+    .current a
+    {
+        font-weight: bold;
+    }
+
+    @media @media-md
+    {
+        .current a
+        {
+            border-top: 1px solid @text-color;
+            font-weight: normal;
+        }
+    }
+}
