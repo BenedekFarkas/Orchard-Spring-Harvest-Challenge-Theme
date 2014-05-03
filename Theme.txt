@@ -1,0 +1,8 @@
+Name: Orchard Spring Harvest Challenge
+Author: Lombiq Technologies Ltd.
+Website: http://springharvestchallenge.dotnest.com
+Description: Theme for the Spring Harvest Challenge website.
+Version: 1.0
+BaseTheme: Lombiq.PrettyGoodBootstrapBaseTheme
+# todo: provide tags
+# Tags: Classic, Serif
