@@ -5,31 +5,43 @@
 /* Navigation
 ***************************************************************/
 
-.menu
-{
-    a
+.widget-menu-widget
     {
-        border-top: 1px solid transparent;
-        border-bottom: 1px solid @text-color;
-        text-decoration: none;
-
-        &:hover, &:active, &:focus
+        .menu
         {
-            border-top: 1px solid @text-color;
+
+            > li
+            {
+                margin-left: 0;
+            }
+
+                > li.current a
+                {
+                    background-color: @menu-bg-active;
+                    color: @menu-color-active;
+                    border: none;
+
+                    &:hover
+                    {
+                        background-color: @menu-bg-hover;
+                        color: @menu-color-active;
+                    }
+                }
+
+                > li > a
+                {
+                    color: @menu-color;
+                    border-radius: 0;
+                    border: none;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    background-color: @menu-bg;
+
+                    &:hover
+                    {
+                        background-color: @menu-bg-hover;
+                        color: @menu-color-active;
+                    }
+                }
         }
     }
-
-    .current a
-    {
-        font-weight: bold;
-    }
-
-    @media @media-md
-    {
-        .current a
-        {
-            border-top: 1px solid @text-color;
-            font-weight: normal;
-        }
-    }
-}
