@@ -508,3 +508,7 @@
   background-color: #33cc33;
   color: #ffffff;
 }
+.widget-menu-widget .menu > li > a:focus {
+  background-color: #33cc33;
+  color: #ffffff;
+}

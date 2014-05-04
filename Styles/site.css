@@ -2010,6 +2010,10 @@ body {
   background-color: #33cc33;
   color: #ffffff;
 }
+.widget-menu-widget .menu > li > a:focus {
+  background-color: #33cc33;
+  color: #ffffff;
+}
 .pager {
   padding-left: 0;
   margin: 20px 0;
