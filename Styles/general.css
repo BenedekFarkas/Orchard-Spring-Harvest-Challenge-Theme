@@ -70,3 +70,6 @@ a:focus {
   margin-top: 1em;
   text-align: center;
 }
+.user-display {
+  display: none;
+}
