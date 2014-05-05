@@ -55,12 +55,13 @@ body
 /* Links */
 a
 {
-    border-bottom: 1px dotted @text-color;
+    border: none;
+    color: @link-green;
 
     &:hover, &:active, &:focus
     {
-        border-bottom: 1px solid @text-color;
-        text-decoration: none;
+        text-decoration: underline;
+        color: @link-dark-green;
     }
 }
 

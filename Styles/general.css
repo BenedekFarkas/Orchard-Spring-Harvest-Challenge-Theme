@@ -7,7 +7,7 @@
 /* General */
 /*@menu-height: 4rem;*/
 /* Media queries */
-/* Setting Bootstrap vars */
+/* Navigation vars */
 /* General
 ***************************************************************/
 /* Layout */
@@ -51,13 +51,14 @@ body {
 }
 /* Links */
 a {
-  border-bottom: 1px dotted #333333;
+  border: none;
+  color: #22bb22;
 }
 a:hover,
 a:active,
 a:focus {
-  border-bottom: 1px solid #333333;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #11aa11;
 }
 /* Blog */
 .blog-post p img {
