@@ -2000,6 +2000,9 @@ body {
 .widget-menu-widget .menu > li {
   margin-left: 0;
 }
+.widget-menu-widget .menu > li.first a {
+  margin-left: 2px;
+}
 .widget-menu-widget .menu > li.current a {
   background-color: #33cc33;
   color: #ffffff;
