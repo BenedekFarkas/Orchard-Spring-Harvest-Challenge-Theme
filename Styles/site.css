@@ -1045,16 +1045,17 @@ body {
   padding-bottom: 0;
 }
 .zone-header #branding {
-  margin: 0 0 1rem 0;
+  margin: 0;
   position: relative;
   width: 100%;
-  padding-bottom: 13%;
+  padding-bottom: 27%;
   padding-left: 0;
   float: left;
   height: 0;
 }
 .zone-header #branding a {
   width: 100%;
+  max-width: 620px;
   height: 100%;
   position: absolute;
   left: 0;
