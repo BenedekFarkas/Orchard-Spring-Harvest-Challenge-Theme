@@ -118,6 +118,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Licence.md" />
+    <Content Include="Styles\variables.css.map">
+      <DependentUpon>variables.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\general.css.map">
+      <DependentUpon>general.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\navigation.css.map">
+      <DependentUpon>navigation.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\type.css.map">
+      <DependentUpon>type.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\forms.css.map">
+      <DependentUpon>forms.css</DependentUpon>
+    </Content>
+    <Content Include="Styles\site.css.map">
+      <DependentUpon>site.css</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
