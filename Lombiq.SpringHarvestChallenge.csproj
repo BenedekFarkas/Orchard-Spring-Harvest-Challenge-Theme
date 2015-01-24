@@ -88,7 +88,6 @@
       <DependentUpon>variables.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="Scripts\Web.config" />
     <Content Include="Styles\Web.config" />
     <Content Include="Images\Web.config" />
     <Content Include="Theme.txt" />
