@@ -14,7 +14,8 @@
     <AssemblyName>Lombiq.SpringHarvestChallenge</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <FileUpgradeFlags></FileUpgradeFlags>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UpgradeBackupLocation />
     <TargetFrameworkProfile />
@@ -69,23 +70,8 @@
   <ItemGroup>
     <Content Include="Images\favicon.ico" />
     <Content Include="Images\spring-harvest-challenge-header.png" />
-    <Content Include="Styles\forms.css">
-      <DependentUpon>forms.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\general.css">
-      <DependentUpon>general.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\navigation.css">
-      <DependentUpon>navigation.less</DependentUpon>
-    </Content>
     <Content Include="Styles\site.css">
       <DependentUpon>site.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\type.css">
-      <DependentUpon>type.less</DependentUpon>
-    </Content>
-    <Content Include="Styles\variables.css">
-      <DependentUpon>variables.less</DependentUpon>
     </Content>
     <Content Include="Web.config" />
     <Content Include="Styles\Web.config" />
@@ -118,25 +104,11 @@
     <Content Include="Styles\variables.less" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Licence.md" />
-    <Content Include="Styles\variables.css.map">
-      <DependentUpon>variables.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\general.css.map">
-      <DependentUpon>general.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\navigation.css.map">
-      <DependentUpon>navigation.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\type.css.map">
-      <DependentUpon>type.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\forms.css.map">
-      <DependentUpon>forms.css</DependentUpon>
-    </Content>
-    <Content Include="Styles\site.css.map">
-      <DependentUpon>site.css</DependentUpon>
-    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -172,7 +144,8 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>45979</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl></IISUrl>
+          <IISUrl>
+          </IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>True</UseCustomServer>
           <CustomServerUrl>http://orchard.codeplex.com</CustomServerUrl>
